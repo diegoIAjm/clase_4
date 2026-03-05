@@ -99,3 +99,47 @@ clase_4
 └─ tsconfig.spec.json
 
 ```
+```
+clase_4
+├─ .angular
+├─ .editorconfig
+├─ angular.json
+├─ package-lock.json
+├─ package.json
+├─ public
+│  └─ favicon.ico
+├─ README.md
+├─ src
+│  ├─ app
+│  │  ├─ app.config.ts
+│  │  ├─ app.html
+│  │  ├─ app.routes.ts
+│  │  ├─ app.scss
+│  │  ├─ app.spec.ts
+│  │  ├─ app.ts
+│  │  └─ components
+│  │     ├─ elementos
+│  │     │  ├─ elementos.html
+│  │     │  ├─ elementos.scss
+│  │     │  ├─ elementos.spec.ts
+│  │     │  └─ elementos.ts
+│  │     ├─ login
+│  │     │  ├─ login.html
+│  │     │  ├─ login.scss
+│  │     │  ├─ login.spec.ts
+│  │     │  └─ login.ts
+│  │     └─ panorama
+│  │        ├─ panorama.html
+│  │        ├─ panorama.scss
+│  │        ├─ panorama.spec.ts
+│  │        └─ panorama.ts
+│  ├─ assets
+│  │  └─ imagen.jpg
+│  ├─ index.html
+│  ├─ main.ts
+│  └─ styles.scss
+├─ tsconfig.app.json
+├─ tsconfig.json
+└─ tsconfig.spec.json
+
+```

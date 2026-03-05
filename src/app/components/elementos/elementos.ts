@@ -2,10 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-elementos',
-  imports: [],
+  standalone: true,
   templateUrl: './elementos.html',
-  styleUrl: './elementos.scss',
+  styleUrl: './elementos.scss'
 })
-export class Elementos {
-
-}
+export class Elementos {}
