@@ -7,7 +7,7 @@ import * as THREE from 'three';
   templateUrl: './panorama.html',
   styleUrl: './panorama.scss'
 })
-export class PanoramaComponent implements AfterViewInit, OnDestroy {
+export class Panorama implements AfterViewInit, OnDestroy {
   @ViewChild('canvas', { static: true }) canvas!: ElementRef<HTMLCanvasElement>;
   private scene!: THREE.Scene;
   private camera!: THREE.PerspectiveCamera;
@@ -31,7 +31,7 @@ export class PanoramaComponent implements AfterViewInit, OnDestroy {
 
   private loadPanorama() {
     const loader = new THREE.TextureLoader();
-    loader.load('assets/imagen.jpg', (texture) => {
+    loader.load('/src/app/assets/imagen.jpg', (texture) => {
       texture.mapping = THREE.EquirectangularReflectionMapping;
       const geometry = new THREE.SphereGeometry(500, 60, 40);
       geometry.scale(-1, 1, 1);
